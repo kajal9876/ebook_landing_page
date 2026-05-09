@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+
+    <nav class="flex  justify-between items-center p-4 shadow-lg bg-white ">
+        <div class="flex items-center gap-2">
+        <i class="ri-book-open-line text-4xl text-orange-400 pl-5"></i>
+        
+        <h1 class="text-xl font-bold text-green-700 "> Ebook </h1>
+        </div>
+
+        <div class=" hidden md:flex gap-8  font-bold  ml-auto  mr-5">
+            <a href="#Home">Home</a>
+            <a href="#TheBook">TheBook</a> 
+            <a href="#Author">Author</a> 
+            <a href="#Reviews">Reviews</a>
+            <a href="#contacts">Contacts</a>
+        </div>
+        <button class="bg-orange-500 text-white px-4 py-2 rounded   ">Download</button>
+    </nav>
+
+    <!-- Herosection -->
+
+    <section id="Home" class="flex  flex-col-reverse md:flex-row items-center justify-between px-8 md:px-16  bg-gradient-to-r from-orange-50 to-white gap-15 overflow-hidden">
+
+        <div class="md:w-1/2 text-center md:left mt-10">
+            <p class="text-orange-500 font-bold uppercase tracking-[4px] mb-4">Ebook landing Page</p>
+
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-800  leading-tight ">Learn Modern Skills Through  <span class="text-orange-500">Digital Books</span>
+            </h1>
+
+            <p class="text-gray-600 text-lg md-8  mt-5">
+                Discover Practical Knowledge, improve your learning experience, and grow your career with our professional ebook collection.
+            </p>
+      <!--Buttons  -->
+           
+<div class="flex flex-col sm:flex-row gap-4 justify-center mt-10 ">
+        <button class="bg-orange-500 hover:bg-orange-600  text-white  px-8 py-3 rounded-xl  transition duration-300 shadow-xl  hover:scale-105">Discover More</button>
+
+        <button class=" bg-orange-500 hover:bg-orange-600  hover:scale-105 text-white  px-8 py-3 rounded-xl transition duration-300 shadow-xl  ">Free Preview</button>
+            </div>
+        </div>
+
+
+        <!-- right Imge -->
+         <div class="md:w-1/2 flex justify-center relative">
+
+        <!-- Background Circle -->
+        <div class="absolute w-72 h-72 md:w-96 md:h-96 bg-orange-200 rounded-full blur-3xl opacity-40"></div>
+
+        <img 
+            src="https://images.unsplash.com/photo-1623276527153-fa38c1616b05?w=500&auto=format&fit=crop&q=60"
+            alt="ebook"
+            class="relative w-72 md:w-[420px] rounded-3xl shadow-2xl shadow-orange-500 hover:scale-105 transition duration-500"
+        >
+
+         
+    </section>
+
+    <!--  About book section 2 -->
+      <section class="py-20 px-6 md:px-16 bg-white" id="TheBook">
+
+        <div class="flex flex-col md:flex-row items-center gap-16">
+<div class="md:w-1/2 flex justify-between">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&auto=format&fit=crop&q=60"alt="ebook"
+                class="w-80 md:w-[500px] rounded-3xl shadow-2xl hover:scale-105 transition duration-500">
+         </div>
+      
+
+        <div class="md:w-1/2">
+            <p class="text-orange-500 font-bold  uppercase[-3px] mb-3"> About The Ebook </p>
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">Upgrade Your Knowledge With 
+                <span class="text-orange-500">Smart Learning</span>
+            </h1>
+            <p class="text-gray-700 text-lg leading-relaxed mb-5"> Our modern ebook collection helps students and professionals learn practical skills, improve productivity, and grow fasterin their careers.</p>
+                <p class="text-gray-700 text-lg leading-relaxed"> Get easy-to-understand content,real-world examples, and modern digital learning resources — all in one place.</p>
+        </div>
+          </div>
+
+       <!-- priview section -->
+          
+<div class="mt-24">
+    <div class="text-center mb-16">
+    <p class="text-orange-500 font-bold uppercase-tracking[3px] mb-3"> What's Inside?</p>
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-800">  Ebook Preview At A Glance</h1>
+</div>
+
+<div class="flex flex-col md:flex-row gap-12 items-start">
+
+    <div class="md:w-1/3 border-2 border-orange-50 rounded-3xl p-8 bg-orange-50 shadow-lg">
+        <div class="space-y-5">
+            <div class="bg-white p-4 rounded-xl shadow font-semibold">Introduction To Ebook</div>
+            <div  class="bg-white p-4 rounded-xl shadow font-semibold">  Chapter 1 : Learn Faster</div>
+            <div  class="bg-white p-4 rounded-xl shadow font-semibold"> Chapter 2 : Improve Skills</div>
+            <div  class="bg-white p-4 rounded-xl shadow font-semibold">  Chapter 3 : Productivity Hacks</div>
+            <div  class="bg-white p-4 rounded-xl shadow font-semibold">  Chapter 4 : Success Mindset</div>
+            
+        </div>
+
+    </div>
+
+    <!-- right content -->
+     <div class="md:w-2/3">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6"> Discover The Power Of Digital Learning</h2>
+        <p class="text-gray-800 text-lg leading-relaxed mb-8">This ebook is designed to help you build modern skills through practical examples, easy explanations, and real-world strategies.</p>
+        <p>Whether you are a student, developer, or professional,this ebook provides valuable insights to boost your learning journey.</p>
+
+        <!-- box -->
+         <div class="bg-orange-50 p-8 rounded-3xl shadow-lg border-1-4 border-orange-50 mt-5">
+            <p class="text-2xl text-orange-500 mb-4">❝</p>
+            <p class="text-2xl md:text-2xl font-semibold text-gray-700 leading-relaxed">Learning never stops. The more you learn, the more opportunities you create for yourself.</p>
+         </div>
+          </div>
+
+         </div>
+          </div>
+
+      </section>
+      <!--  -->
+      <!-- Author Section -->
+<section class="py-20 px-6 md:px-16 bg-white overflow-hidden " id="Author">
+
+    <div class="flex flex-col md:flex-row items-center gap-16">
+
+        <!-- Left Image -->
+        <div class="md:w-1/2 flex justify-center relative">
+
+            <!-- Background Shapes -->
+            <div class="absolute top-0 left-10 w-20 h-20 bg-orange-00 rounded-full opacity-70"></div>
+
+            <div class="absolute bottom-0 left-0 w-32 h-32 bg-orange-200 rounded-tr-full opacity-70"></div>
+
+            <!-- Author Image -->
+            <img 
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60"
+                alt="author"
+                class="relative w-72 h-72 object-cover rounded-full border-8 border-orange-300 shadow-2xl"
+            >
+
+        </div>
+
+        <!-- Right Content -->
+        <div class="md:w-1/2">
+
+            <p class="text-orange-500 font-bold uppercase tracking-[3px] mb-3">
+                Meet The Author
+            </p>
+
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                Prof. Sophia Walker
+            </h1>
+
+            <p class="text-gray-600 text-lg leading-relaxed mb-5">
+                Sophia is a passionate educator and digital creator who helps
+                students and professionals learn modern skills through easy,
+                practical, and engaging ebooks.
+            </p>
+
+            <p class="text-gray-600 text-lg leading-relaxed">
+                Her mission is to simplify learning and provide high-quality
+                educational resources for everyone.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Reviews Section -->
+<section  id="Reviews" class="py-20 px-6 md:px-16 bg-orange-50">
+
+    <!-- Heading -->
+    <div class="text-center mb-16">
+
+        <p class="text-orange-500 font-bold uppercase tracking-[3px] mb-3">
+            Reviews
+        </p>
+
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-800">
+            What People Are Saying...
+        </h1>
+
+    </div>
+
+    <!-- Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Card 1 -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:-translate-y-2 transition duration-500">
+
+            <img 
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&auto=format&fit=crop&q=60"
+                alt=""
+                class="h-56 w-full object-cover"
+            >
+
+            <div class="p-6">
+
+                <h2 class="text-2xl font-bold mb-2">4.8 ⭐</h2>
+
+                <p class="text-gray-600 mb-4">
+                    “Amazing ebook! The content is easy to understand and very practical.”
+                </p>
+
+                <h3 class="font-bold text-lg">Sandy</h3>
+                <p class="text-orange-500">UI Designer</p>
+
+            </div>
+
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:-translate-y-2 transition duration-500">
+
+            <img 
+    src="https://plus.unsplash.com/premium_photo-1664299456090-ba2bdddbb7f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fGVib29rfGVufDB8fDB8fHww"
+    alt="review user"
+    class="h-56 w-full object-cover"
+>
+
+            <div class="p-6">
+
+                <h2 class="text-2xl font-bold mb-2">4.5 ⭐</h2>
+
+                <p class="text-gray-600 mb-4">
+                    “The chapters are well organized and helped me improve my skills.”
+                </p>
+
+                <h3 class="font-bold text-lg">John</h3>
+                <p class="text-orange-500">Developer</p>
+
+            </div>
+
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:-translate-y-2 transition duration-500">
+
+            <img 
+                src="https://images.unsplash.com/photo-1664904527318-773ba829c7d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA5fHxlYm9va3xlbnwwfHwwfHx8MA%3D%3D"
+                alt=""
+                class="h-56 w-full object-cover"
+            >
+
+            <div class="p-6">
+
+                <h2 class="text-2xl font-bold mb-2">5.0 ⭐</h2>
+
+                <p class="text-gray-600 mb-4">
+                    “Highly recommended for students and professionals who love learning.”
+                </p>
+
+                <h3 class="font-bold text-lg">Candy</h3>
+                <p class="text-orange-500">Marketing Head</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Contact Section 3-->
+<section class="py-20 px-6 md:px-16 bg-orange-500">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+        <!-- Form -->
+        <div class="bg-white rounded-3xl shadow-2xl p-10">
+
+            <h1 class="text-4xl font-bold text-gray-800 mb-8 text-center">
+                Get Your Free Ebook
+            </h1>
+
+            <form class="space-y-5">
+
+                <input 
+                    type="text"
+                    placeholder="Your Name"
+                    class="w-full border border-gray-300 rounded-xl px-5 py-3 outline-none focus:border-orange-500"
+                >
+
+                <input 
+                    type="email"
+                    placeholder="your@email.com"
+                    class="w-full border border-gray-300 rounded-xl px-5 py-3 outline-none focus:border-orange-500"
+                >
+
+                <button class="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl transition duration-300">
+                    Download Ebook
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- Contact Info -->
+        <div  id="contacts"  class="text-white">
+
+            <p class="uppercase tracking-[3px] font-bold mb-3">
+                Say Hi And Talk To Us
+            </p>
+
+            <h1 class="text-5xl font-bold mb-8">
+                Contact
+            </h1>
+
+            <div class="space-y-4 text-lg">
+
+                <p>📍 London, United Kingdom</p>
+
+                <p>📞 010-020-0340</p>
+
+                <p>✉ info@company.com</p>
+
+            </div>
+
+            <!-- Social -->
+            <div class="flex gap-5 mt-10 text-3xl">
+
+                <i class="ri-instagram-line"></i>
+                <i class="ri-twitter-x-line"></i>
+                <i class="ri-facebook-circle-line"></i>
+                <i class="ri-linkedin-box-line"></i>
+
+            </div>
+
+            <p class="mt-10 text-sm text-orange-100">
+                © 2026 Ebook Company. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+      
+
+        </div>
+       </section>
+     
+
+
+
+    
+</body>
+</html>
